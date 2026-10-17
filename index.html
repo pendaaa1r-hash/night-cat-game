@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b16">
+  <meta name="description" content="گربه‌ی شبگرد؛ یک بازی از PN Studio. دانلود رایگان بازی.">
+  <title>گربه‌ی شبگرد | PN Studio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Tahoma, Arial, sans-serif;
+      color: #f4f6ff;
+      background:
+        radial-gradient(ellipse at top, #18234a 0%, transparent 55%),
+        #080b16;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 22px 7%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #25304a;
+    }
+
+    .brand {
+      font-size: 22px;
+      font-weight: bold;
+      color: #65e7ff;
+      letter-spacing: 1px;
+    }
+
+    .badge {
+      color: #a9b7d5;
+      font-size: 13px;
+    }
+
+    main {
+      width: min(900px, 90%);
+      margin: auto;
+      padding: 65px 0;
+      text-align: center;
+    }
+
+    .cat {
+      font-size: 100px;
+      filter: drop-shadow(0 0 24px #397dff);
+      animation: float 2.5s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    h1 {
+      font-size: clamp(34px, 7vw, 58px);
+      margin: 20px 0 10px;
+    }
+
+    h1 span {
+      color: #65e7ff;
+    }
+
+    .subtitle {
+      color: #aebbd5;
+      line-height: 2;
+      font-size: 16px;
+    }
+
+    .panel {
+      margin: 35px auto;
+      padding: 28px;
+      max-width: 600px;
+      background: rgba(22, 31, 57, 0.8);
+      border: 1px solid #344568;
+      border-radius: 20px;
+      box-shadow: 0 0 35px #101b3c;
+    }
+
+    .panel h2 {
+      margin-top: 0;
+      color: #65e7ff;
+    }
+
+    .panel p {
+      color: #c2cce0;
+      line-height: 2;
+    }
+
+    .download {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 16px 35px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #65e7ff, #6384ff);
+      color: #07101e;
+      font-weight: bold;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .download:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 25px #438bff;
+    }
+
+    .note {
+      font-size: 12px;
+      color: #8795b4;
+      margin-top: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      border-top: 1px solid #25304a;
+      color: #8795b4;
+      font-size: 13px;
+    }
+
+    footer strong {
+      color: #65e7ff;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="brand">PN STUDIO</div>
+    <div class="badge">بازی مستقل</div>
+  </header>
+
+  <main>
+    <div class="cat">🐈‍⬛</div>
+
+    <h1>گربه‌ی <span>شبگرد</span></h1>
+
+    <p class="subtitle">
+      به دنیای گربه‌ی شبگرد خوش آمدی!<br>
+      بازی را دریافت کن و ماجراجویی‌ات را شروع کن.
+    </p>
+
+    <section class="panel">
+      <h2>🌙 آماده‌ای برای بازی؟</h2>
+      <p>
+        نسخه‌ی فعلی بازی را رایگان دانلود کن.
+        فایل بازی به‌صورت ZIP ارائه می‌شود.
+      </p>
+
+      <a class="download"
+         href="https://github.com/pendaaa1r-hash/night-cat-game/raw/refs/heads/main/Night-Cat-Game.zip">
+        ⬇ دانلود رایگان بازی
+      </a>
+
+      <div class="note">
+        ساخته‌شده با ❤️ توسط PN Studio
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 <strong>PN Studio</strong> — تمامی حقوق محفوظ است.
+  </footer>
+</body>
+</html>
